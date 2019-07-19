@@ -1,0 +1,19 @@
+{
+  "name": "lib-repl",
+  "version": "1.0.0",
+  "description": "Automatically loads your lib into a repl for easy interaction",
+  "main": "lib/index.js",
+  "bin": {
+    "lib-repl": "./bin/index.js"
+  },
+  "author": "Daniel Boroujerdi",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^3.0.2",
+    "import-local": "^3.0.1",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "tap": "^14.4.2"
+  }
+}
